@@ -6,15 +6,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Magra:wght@700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
     <title>Principal-TP2-progWeb2020</title>
   </head>
-  <body>
-    <header>
+  <body class="d-flex flex-column min-vh-100">
+    <header class="border-bottom">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-          <img class="imagen" src="/recursos/logoTucumanNet.png" alt="Logo de la Empresa" style="width: 44px; height: 44px;">
+          <img class="image" src="/recursos/logoTucumanNet.png" alt="Logo de la Empresa" style="width: 44px; height: 44px;">
             <a class="navbar-brand">Tucumán NET</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -32,18 +30,24 @@
                 </li>
               </ul>
             </div>
-          </nav>
-          <br><br><br>
+          </nav><br>
     </header>
     <main>
-      <div class="container-fluid">
-        <p><a href="index.html">Tucuman NET</a> > Principal</p>
-      </div>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Tucuman Net</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Principal</li>
+        </ol>
+      </nav>
     </main>
+    <footer class="footer mt-auto">
+      <div class="d-flex justify-content-between text-center py-2 bg-dark">
+        <h4 class="text-white">© 2020 Tucuman NET</h4>
+        <img class="img-fluid" src="/recursos/logoTucumanNet.png" alt="Logo de la Empresa" style="width: 44px; height: 44px;">
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
-  <footer>
-    <img class="imagen" src="/recursos/logoTucumanNet.png" alt="Logo de la Empresa" style="width: 44px; height: 44px;"
-        align="right">
-    <h4>© 2020 Tucuman NET</h4>
-  </footer>
 </html>

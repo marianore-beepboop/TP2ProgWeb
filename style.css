@@ -1,0 +1,20 @@
+body{
+    font-family: 'Magra', sans-serif;
+    padding: 45px 0 0 0;
+ };
+
+ footer{
+     background-color: grey;
+ }
+
+.table tr:nth-child(even){
+    background-color: #ffffff;
+
+}
+.table tr:nth-child(odd):hover, .table tr:nth-child(even):hover{
+    background-color: #fffb00;
+}
+
+.table tr:nth-child(odd){
+    background-color: #e0e0e0 ;
+} 
